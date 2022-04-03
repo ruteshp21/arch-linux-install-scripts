@@ -33,7 +33,7 @@ mount /dev/nvme0n1p1 /mnt/boot
 `git clone https://github.com/ruteshp21/arch-linux-installer.git`
 
 ## Step 8: Run following shell script to install add-on essential package and configure Arch system
-`./arch-essential-pkg.sh`
+`./00-arch-essential-pkg.sh`
 
 ## Step 9: Add wheel group to sudo
 `EDITOR=nano visudo`
